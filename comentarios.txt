@@ -1,0 +1,30 @@
+# Node Version Manager NVM 
+
+# LISTAR  -  Retorna as versoes atuais disponíveis do NODE.
+nvm -ls
+
+# versao LTS - Long Term Support
+
+# instalar versao.
+nvm install lts/hydrogen
+
+# tornar a versao padrao:
+nvm alias <name> <version>
+exemplo:
+nvm alias default lts/hydrogen
+
+#para que as pessoas que irao trabalhar neste repositório saibam a versao recomendada do Node
+é preciso criar um arquivo especial com o nome de .nvmrc
+
+sobre os arquivos especiais rc (Run Commands) é uma conversao para scripts que tenham instrucoes de inicializacao.
+
+GIT:
+git log --stat
+git log --oneline | versao mais compacta
+git commit --amend | ele modifica um commit sem a necessidade de criar uma linha do tempo
+git status
+
+git commit -m "mensagem" | atalho para fazer novos commits.
+git push | empurrar alterações locais para o origin.
+git push --force | empurrar de forma forçada alterações locais para o origin.
+git push -f - |a forma comprimida do comando anterior.

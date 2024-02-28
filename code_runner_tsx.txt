@@ -1,0 +1,23 @@
+1 -lembrar de instalar a lib ts-node 
+    yarn add ts-node
+2 - criar um arquivo .vscode/settings.json
+
+{
+    "code-runner.executorMap": {
+        "typescript": "ts-node",
+        "typescriptreact": "ts-node"
+    },
+    "code-runner.executorMapByFileExtension": {
+        ".ts": "ts-node",
+        ".tsx": "ts-node"
+    },
+    "code-runner.runInTerminal": true
+
+}
+
+3 - alterar o tsconfig.json 
+"module": "commonjs",
+
+
+as vezes é exigido que voce faça o EXPORT nos codigos.
+

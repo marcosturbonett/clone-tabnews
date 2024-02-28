@@ -1,0 +1,9 @@
+#####
+"scripts": {
+"dev": "next dev",
+"lint:check": "prettier --check .",
+"lint:fix": "prettier --write ."
+},
+Lembrar de ir nas configuraçoes de:
+Formatter: prettier 
+Format on save...
