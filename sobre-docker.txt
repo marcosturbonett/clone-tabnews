@@ -1,0 +1,1 @@
+docker compose -f infra/compose.yaml up -d
