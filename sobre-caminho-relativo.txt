@@ -1,6 +1,6 @@
 precisa criar o arquivo jsconfig.json no caso do javascritp
 e o arquivo tsconfig.json no caso do typescript.
-
+..
 
 {
   "compilerOptions": {
