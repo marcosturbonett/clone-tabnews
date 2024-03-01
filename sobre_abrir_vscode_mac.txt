@@ -1,0 +1,16 @@
+https://code.visualstudio.com/docs/setup/mac
+Funciona em qualquer terminal, você tem que adicionar o comando code no PATH.
+
+Inicia o VsCode
+Digita Command + Shift + P
+No campo para digitar escreve shell command
+Seleciona a opção Shell Command: Install 'code' command in PATH
+Fecha o terminal e abre de novo para aplicar
+
+###
+para localizar um arquivo e ainda um conteudo dentro do arquivo.
+command + p
+
+ex. procurar pelo script dentro do package.json 
+pk@script 
+

@@ -1,1 +1,9 @@
+# para subir o conteiner caso ele nao esteja no diretorio raiz.
 docker compose -f infra/compose.yaml up -d
+
+# apagar:
+docker compose down 
+
+# parar 
+docker compose stop
+
