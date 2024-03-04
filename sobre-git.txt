@@ -31,3 +31,6 @@ git push -f - |a forma comprimida do comando anterior.
 
 # renomear um arquivo. 
 git mv .env .env.development
+
+# restaura os arquivos modificados que nao foram ainda feitos commit/push 
+git restore .
