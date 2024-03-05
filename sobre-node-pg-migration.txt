@@ -1,0 +1,12 @@
+instalar:
+yarn add node-pg-migrate 
+
+# criar o scritp no pagkage json:
+"migration:create": "node-pg-migrate --migrations-dir infra/migrations create"
+
+# executar:
+npm run migration:create  "nome da migration"
+ex. npm run migration:create  firts migration
+# entendo o nome do arquivo...
+começa com o unix timestamp...
+
